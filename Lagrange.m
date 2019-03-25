@@ -1,4 +1,9 @@
 function fx = Lagrange(X, Y, x)
+%{
+   X - array of x values
+   Y - array of y values
+   x - value we are calculating
+%}
 n = length(X);
 L = zeros(n,1);
 for i = 1:n
