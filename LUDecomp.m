@@ -1,4 +1,8 @@
 function [D, X] = LUDecomp(A, B)
+%{
+    A - Matrix of equations
+    B - Last column of matrix A
+%}
 n = length(A);
 U = A;
 L =  [1,0,0; 0,1,0; 0,0,1];
