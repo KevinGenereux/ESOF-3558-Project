@@ -2,7 +2,7 @@ function fx = Lagrange(X, Y, x)
 %{
    X - array of x values
    Y - array of y values
-   x - value we are calculating
+   x - value to calculate y at
 %}
 n = length(X);
 L = zeros(n,1);
