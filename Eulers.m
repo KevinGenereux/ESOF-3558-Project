@@ -1,4 +1,12 @@
 function [X, Y] = Eulers(xi, xf, h, y0, f)
+%{
+    xi - x value to start at
+    xf - x value to stop at
+    h - step size
+    y0 - value of y(0)
+    f - function
+%}
+
 X = xi:h:xf;
 n = length(X);
 
