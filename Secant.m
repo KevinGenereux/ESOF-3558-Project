@@ -1,4 +1,11 @@
 function X = Secant(xi0, xi1, f, stop)
+%{
+    xi0 - initial x value
+    xi1 - initial x value
+    f - function
+    stop - iteration to stop at
+%}
+
 X = zeros(stop,1);
 
 for i = 0:stop-1
