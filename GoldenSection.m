@@ -1,4 +1,11 @@
 function xopt = GoldenSection(xu, xl, f, stop)
+%{
+  xu - upper bound
+  xl - lower bound
+  f - function
+  stop - stopping criteria. error % you want to stop at
+%}
+
 ea = stop+1;
 gr = 1.61803;
 iter = 0;
