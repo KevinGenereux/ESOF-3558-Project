@@ -4,5 +4,5 @@ function D = BackFDiff(x, h, f)
   h - step value
   f - fucntion
 %}
-D = (f(x+h) - f(x-h))/h;
+D = (f(x) - f(x-h))/h;
 end
