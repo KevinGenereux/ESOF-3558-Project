@@ -25,3 +25,8 @@ A = [3, -2, 1; 2, 6, -4; -1, -2, 5];
 B = [-10; 44; -26];
 fprintf("LUDecomp: \n");
 disp(LUDecomp(A,B));
+
+%Golden Section Search
+f = @(x) -2 * x ^ 0.5 + x + x ^ 2
+fprintf("Golden Section Search: \n");
+disp(GoldenSection(0,2,f,0.3)
